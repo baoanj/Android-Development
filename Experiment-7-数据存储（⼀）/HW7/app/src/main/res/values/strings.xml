@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HW7</string>
+    <string name="hintNewpass">New Password</string>
+    <string name="hintConpass">Confirm Password</string>
+    <string name="buttonOk">ok</string>
+    <string name="buttonClear">clear</string>
+    <string name="hintPass">Password</string>
+    <string name="buttonSave">save</string>
+    <string name="buttonLoad">load</string>
+</resources>

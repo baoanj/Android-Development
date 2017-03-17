@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:weightSum="1">
+
+    <TextView
+        style="@style/my_view_style"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:textSize="@dimen/dimen_20sp"
+        android:text="@string/title"
+        android:textAlignment="center"
+        android:id="@+id/textView"/>
+
+    <ImageView
+        style="@style/my_view_style"
+        android:layout_marginBottom="@dimen/dimen_20dp"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:src="@mipmap/sysu"
+        android:adjustViewBounds="true"
+        android:maxWidth="@dimen/dimen_80dp"
+        android:maxHeight="@dimen/dimen_80dp"
+        android:id="@+id/imageView"/>
+
+    <LinearLayout
+        style="@style/my_view_style"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            style="@style/my_text_style"
+            android:text="@string/username"/>
+        <EditText
+            style="@style/my_text_style"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:hint="@string/inputname"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/my_view_style"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:layout_marginTop="@dimen/dimen_5dp">
+
+        <TextView
+            style="@style/my_text_style"
+            android:text="@string/password"/>
+        <EditText
+            style="@style/my_text_style"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:hint="@string/inputpw"/>
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/id0"
+        style="@style/my_view_style"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/dimen_20dp">
+
+        <RadioButton
+            android:id="@+id/id1"
+            style="@style/my_text_style"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:text="@string/student"
+            android:checked="true"/>
+        <RadioButton
+            android:id="@+id/id2"
+            style="@style/my_text_style"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:text="@string/teacher"/>
+        <RadioButton
+            android:id="@+id/id3"
+            style="@style/my_text_style"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:text="@string/association"/>
+        <RadioButton
+            android:id="@+id/id4"
+            style="@style/my_text_style"
+            android:text="@string/manager"/>
+    </RadioGroup>
+
+    <LinearLayout
+        style="@style/my_view_style">
+
+        <Button
+            style="@style/my_button_style"
+            android:layout_marginRight="@dimen/dimen_5dp"
+            android:text="@string/login"/>
+        <Button
+            style="@style/my_button_style"
+            android:text="@string/regist"/>
+    </LinearLayout>
+
+</LinearLayout>

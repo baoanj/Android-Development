@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/my_match_style"
+              android:padding="@dimen/dimen_20dp">
+
+    <TextView
+        android:id="@+id/circleLabel"
+        style="@style/my_center_style"
+        android:background="@drawable/button_shape"
+        android:layout_width="@dimen/dimen_80dp"
+        android:layout_height="@dimen/dimen_80dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:textSize="@dimen/dimen_45sp"
+        android:textColor="@color/primaryWhite"/>
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/my_wrap_center_style"
+        android:padding="@dimen/dimen_15dp"
+        android:textSize="@dimen/dimen_30sp"/>
+
+</LinearLayout>

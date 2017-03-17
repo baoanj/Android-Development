@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HW9</string>
+    <string name="welcome">Welcome to the Weather Search</string>
+    <string name="cityName">City Name:</string>
+    <string name="city">广州</string>
+    <string name="search">Search</string>
+</resources>

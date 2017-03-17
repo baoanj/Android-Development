@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        style="@style/my_view_style"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:textSize="@dimen/dimen_20sp"
+        android:text="@string/title"
+        android:id="@+id/textView"/>
+
+    <ImageView
+        style="@style/my_view_style"
+        android:layout_marginBottom="@dimen/dimen_20dp"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:src="@mipmap/sysu"
+        android:id="@+id/imageView"/>
+
+    <TableLayout
+        style="@style/my_more_view_style">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutName1"
+            style="@style/my_more_view_style"
+            android:layout_marginLeft="@dimen/dimen_20dp"
+            android:layout_marginRight="@dimen/dimen_20dp"
+            android:layout_marginBottom="@dimen/dimen_5dp">
+
+            <EditText
+                android:id="@+id/username"
+                style="@style/my_more_text_style"
+                android:singleLine="true"
+                android:hint="@string/inputname"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutName2"
+            style="@style/my_more_view_style"
+            android:layout_marginLeft="@dimen/dimen_20dp"
+            android:layout_marginRight="@dimen/dimen_20dp"
+            android:layout_marginTop="@dimen/dimen_5dp">
+
+            <EditText
+                android:id="@+id/password"
+                style="@style/my_more_text_style"
+                android:singleLine="true"
+                android:inputType="textPassword"
+                android:hint="@string/inputpw"/>
+        </android.support.design.widget.TextInputLayout>
+
+    </TableLayout>
+
+    <RadioGroup
+        android:id="@+id/id0"
+        style="@style/my_view_style"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/dimen_20dp">
+
+        <RadioButton
+            android:id="@+id/id1"
+            style="@style/my_text_style"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:text="@string/student"
+            android:checked="true"/>
+        <RadioButton
+            android:id="@+id/id2"
+            style="@style/my_text_style"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:text="@string/teacher"/>
+        <RadioButton
+            android:id="@+id/id3"
+            style="@style/my_text_style"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:text="@string/association"/>
+        <RadioButton
+            android:id="@+id/id4"
+            style="@style/my_text_style"
+            android:text="@string/manager"/>
+    </RadioGroup>
+
+    <LinearLayout
+        style="@style/my_view_style">
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/my_button_style"
+            android:layout_marginRight="@dimen/dimen_5dp"
+            android:text="@string/login"/>
+        <Button
+            android:id="@+id/button2"
+            style="@style/my_button_style"
+            android:text="@string/regist"/>
+    </LinearLayout>
+
+</LinearLayout>

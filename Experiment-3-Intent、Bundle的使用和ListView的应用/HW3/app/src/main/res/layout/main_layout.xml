@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/my_match_style"
+              android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/contactsList"
+        style="@style/my_match_style">
+
+    </ListView>
+
+</LinearLayout>

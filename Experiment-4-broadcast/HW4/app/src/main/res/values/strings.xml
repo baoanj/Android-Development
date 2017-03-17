@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HW4</string>
+    <string name="static_regist">静态注册</string>
+    <string name="dynamic_regist">动态注册</string>
+    <string name="registerBroadcast">Register Broadcast</string>
+    <string name="unregisterBroadcast">Unregister Broadcast</string>
+    <string name="send">Send</string>
+</resources>

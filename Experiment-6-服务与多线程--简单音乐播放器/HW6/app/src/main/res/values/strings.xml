@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HW6</string>
+    <string name="IDLE">IDLE</string>
+    <string name="PLAY">PLAY</string>
+    <string name="Playing">Playing</string>
+    <string name="PAUSE">PAUSE</string>
+    <string name="Pause">Pause</string>
+    <string name="STOP">STOP</string>
+    <string name="Stop">Stop</string>
+    <string name="QUIT">QUIT</string>
+    <string name="startTime">00:00</string>
+    <string name="filepath">Loaded media file:/data/K.Will-Melt.mp3</string>
+</resources>

@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="my_match_style">
+        <item name="android:layout_height">@dimen/dimen_match</item>
+        <item name="android:layout_width">@dimen/dimen_match</item>
+    </style>
+
+    <style name="my_wrap_center_style">
+        <item name="android:layout_height">@dimen/dimen_wrap</item>
+        <item name="android:layout_width">@dimen/dimen_wrap</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="my_wrap_style">
+        <item name="android:layout_height">@dimen/dimen_wrap</item>
+        <item name="android:layout_width">@dimen/dimen_wrap</item>
+    </style>
+
+    <style name="my_center_style">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="my_text_style">
+        <item name="android:layout_width">@dimen/dimen_wrap</item>
+        <item name="android:layout_height">@dimen/dimen_wrap</item>
+        <item name="android:textSize">@dimen/dimen_18sp</item>
+    </style>
+
+</resources>
